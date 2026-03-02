@@ -1,0 +1,48 @@
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #502473; /* Roxo */
+    margin: 10px 0;
+}
+
+h2 {
+    color: #AAAAAA;
+    margin: 20px 0 10px;
+}
+
+a {
+    color: #00FF00; /* Lime */
+}
+
+.botao {
+    display: inline-block;
+    background: #222;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+    width: 80%; /* pra caber bem em telas pequenas */
+    max-width: 240px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ff0000; /* Borda da Foto */
+    margin: 10px 0;
+}
+
+hr {
+    border: 1px solid #333;
+    margin: 20px 0;
+}
