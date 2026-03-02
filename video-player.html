@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player Retrô - GuttHackerYT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/Favicon2.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Video Player Retrô</h1>
+    
+    <p>Tenta assistir vídeos aqui no Nokia X2-01! Use Opera Mini pra melhor chance (browser nativo pode não carregar vídeo).</p>
+    
+    <h2>Player de Teste (vídeo hospedado)</h2>
+    <!-- Substitua src pelo teu vídeo MP4 pequeno (<5-10MB ideal, 320x240 res, H.264 baseline pra compatibilidade) -->
+    <!-- Ex: upload um clipe curto teu ou um meme antigo em /videos/teste.mp4 -->
+    <video width="100%" height="auto" controls poster="/Icones_Imagens/video-poster.jpg">
+        <source src="https://github.com/GuttHYT/G-oldVersion/blob/main/YTDown.com_YouTube_Hutao-Montagem-Shirt-Blue_Media_I40NHMRV2II_001_1080p.mp4" type="video/mp4">
+        <p>Teu Nokia não suporta o player HTML5. Tenta baixar o vídeo ou usar Opera Mini mais novo.</p>
+    </video>
+    
+    <h2>Busca na Web (YouTube)</h2>
+    <p>Digita algo e clica buscar — abre no YouTube mobile (m.youtube.com).</p>
+    
+    <!-- Barra de pesquisa simples: redireciona pra YouTube search -->
+    <form action="https://m.youtube.com/results" method="get" target="_blank">
+        <input type="text" name="search_query" placeholder="Busca vídeo... (ex: Nokia X2-01 gameplay)" style="width:80%; max-width:220px; padding:8px; margin:10px 0; background:#222; color:white; border:1px solid white;">
+        <input type="submit" value="Buscar" class="botao" style="padding:8px 16px;">
+    </form>
+    
+    <p><strong>Dica:</strong> Se não carregar, copia o link do vídeo e tenta no player do celular (Menu > Multimídia > Player).</p>
+    
+    <p><a href="index.html" class="botao">← Voltar pra Home</a></p>
+    
+    <hr>
+    <p>Feito para celulares Java.</p>
+    <p>Testado em: Nokia X2-01, Windows 10, Samsung Galaxy A01, LG K22.</p>
+    <p>&copy; Todos os direitos reservados 01/03/2026-2026. Gustavo Santana M.</p>
+</body>
+</html>
